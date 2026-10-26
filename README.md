@@ -2,7 +2,7 @@
 
 Jalakam is a desktop streaming studio with AI-assisted highlight detection, transcript-based clip editing, dual landscape/portrait canvases, multistreaming and clip publishing.
 
-**Status:** Phase 1, product requirements defined. No application code yet.
+**Status:** Phase 2, architecture decided. No application code yet; the next step is the POC-1 spine spike.
 
 ## Clean-room implementation
 
@@ -29,9 +29,19 @@ Jalakam is an independent, clean-room implementation. Phase 0 studied the public
 - [Acceptance criteria and release gates](docs/product/acceptance-criteria.md)
 - [Assumptions and decisions needed](docs/product/assumptions-and-decisions-needed.md)
 
+## Architecture (Phase 2)
+
+- [System design](docs/architecture/system-design.md): process boundaries, data flows, streaming pipeline, lifecycle
+- [Component boundaries](docs/architecture/component-boundaries.md): interfaces and ownership
+- [Technology evaluation](docs/architecture/technology-evaluation.md): compared options and rejected candidates
+- [Threat model](docs/architecture/threat-model.md)
+- [Performance budgets](docs/architecture/performance-budgets.md)
+- [Architecture decision records, selected stack and POC plan](docs/architecture/decisions/README.md)
+
 ## Decisions
 
 - [ADR 0001: Phase 0 product decisions](docs/decisions/0001-phase0-decisions.md)
+- [ADR-0002 to ADR-0016: architecture decisions](docs/architecture/decisions/README.md)
 
 ## Licence
 
