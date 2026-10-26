@@ -2,7 +2,7 @@
 
 Jalakam is a desktop streaming studio with AI-assisted highlight detection, transcript-based clip editing, dual landscape/portrait canvases, multistreaming and clip publishing.
 
-**Status:** Phase 0, research only. No application code yet.
+**Status:** Phase 1, product requirements defined. No application code yet.
 
 ## Clean-room implementation
 
@@ -20,6 +20,14 @@ Jalakam is an independent, clean-room implementation. Phase 0 studied the public
 - [Unknowns and risks](docs/research/unknowns-and-risks.md)
 - [MVP recommendation, build-model plan and pending decisions](docs/research/mvp-recommendation.md)
 - [Source register](docs/research/source-register.md)
+
+## Product definition (Phase 1)
+
+- [Product requirements](docs/product/product-requirements.md)
+- [MVP scope, release-one definition of done, success criteria](docs/product/mvp-scope.md)
+- [User journeys](docs/product/user-journeys.md)
+- [Acceptance criteria and release gates](docs/product/acceptance-criteria.md)
+- [Assumptions and decisions needed](docs/product/assumptions-and-decisions-needed.md)
 
 ## Decisions
 
