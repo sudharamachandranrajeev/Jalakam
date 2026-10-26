@@ -21,6 +21,10 @@ Jalakam is an independent, clean-room implementation. Phase 0 studied the public
 - [MVP recommendation, build-model plan and pending decisions](docs/research/mvp-recommendation.md)
 - [Source register](docs/research/source-register.md)
 
+## Decisions
+
+- [ADR 0001: Phase 0 product decisions](docs/decisions/0001-phase0-decisions.md)
+
 ## Licence
 
-Not yet chosen. This is pending decision D2 in the MVP recommendation. Until a licence is added, all rights are reserved.
+[Apache-2.0](LICENSE). See ADR 0001, decision D2.
