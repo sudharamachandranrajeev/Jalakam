@@ -1,0 +1,8 @@
+# Local third-party dependencies (FFmpeg dev libs, MediaMTX); see poc/README.md
+/.deps/
+# Rust build output
+/poc/target/
+# POC test output (recordings, stats, logs)
+/poc/out/
+/poc/auto.crt
+/poc/auto.key

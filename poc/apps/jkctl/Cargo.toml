@@ -1,0 +1,12 @@
+[package]
+name = "jkctl"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+jkp-proto = { path = "../../crates/jkp-proto" }
+anyhow.workspace = true
+serde_json.workspace = true
+clap.workspace = true

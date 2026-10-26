@@ -1,0 +1,45 @@
+# Baseline settings for Phase 4 measurements (see poc/README.md, "Test machine").
+adapter = "nvidia"
+out_dir = "out"
+
+[canvas]
+width = 1920
+height = 1080
+fps = 60
+preview_width = 960
+
+[sources]
+display = 0                 # primary monitor, WGC
+camera = "No Such Camera 9000"
+camera_width = 1280
+camera_height = 720
+camera_fps = 30
+
+[overlay]
+text = "JALAKAM POC"
+
+[audio]
+mic = "No Such Microphone"
+bitrate_kbps = 160
+
+[stream]
+target = "rtmp://127.0.0.1:1935/live/test"
+format = "flv"
+encoder = "h264_nvenc"
+fallback_encoder = "libopenh264"
+width = 1280
+height = 720
+bitrate_kbps = 4500
+keyframe_interval_s = 2
+queue_s = 2
+
+[record]
+target = "out/rec-{ts}.mkv"
+format = "matroska"
+encoder = "h264_nvenc"
+fallback_encoder = "libopenh264"
+width = 1920
+height = 1080
+bitrate_kbps = 12000
+keyframe_interval_s = 2
+queue_s = 4

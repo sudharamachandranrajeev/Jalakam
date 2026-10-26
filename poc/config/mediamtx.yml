@@ -1,0 +1,15 @@
+# Local test server for the Phase 4 POC. Loopback only, no auth (never exposed).
+logLevel: info
+rtmp: yes
+rtmpAddress: 127.0.0.1:1935
+rtsp: no
+hls: no
+webrtc: no
+srt: no
+api: no
+metrics: no
+pprof: no
+playback: no
+moq: no
+paths:
+  all_others:

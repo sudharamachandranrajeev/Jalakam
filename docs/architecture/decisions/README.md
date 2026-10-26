@@ -42,6 +42,8 @@ ADR 0001 (Phase 0 product decisions D1–D5) lives in `docs/decisions/0001-phase
 
 **POC-1 "spine spike"** is the smallest POC that validates the riskiest decisions. Owner: Opus (high effort). Estimate: 3–4 weeks.
 
+Phase 4 delivered a single-canvas subset of 1A. Results, limitations and ADR amendments are in [`../poc-1-results.md`](../poc-1-results.md).
+
 - **1A Engine spine** (ADR-0002/0004/0006/0007/0014):
   - WGC display + MF camera → D3D11, two canvases (1080p60 + 1080×1920);
   - `h264_nvenc` zero-copy through FFmpeg D3D11 hwframes;

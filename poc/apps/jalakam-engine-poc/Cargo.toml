@@ -1,0 +1,19 @@
+[package]
+name = "jalakam-engine-poc"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+jkp-proto = { path = "../../crates/jkp-proto" }
+anyhow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+toml.workspace = true
+clap.workspace = true
+crossbeam-channel.workspace = true
+parking_lot.workspace = true
+ffmpeg-sys-next.workspace = true
+windows = { workspace = true, features = ["Win32_System_Diagnostics_ToolHelp", "Win32_System_Console", "Win32_System_SystemInformation"] }
+windows-core = "0.62"
