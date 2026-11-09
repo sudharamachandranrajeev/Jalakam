@@ -10,4 +10,4 @@ jkp-proto = { path = "../../crates/jkp-proto" }
 anyhow.workspace = true
 serde_json.workspace = true
 windows = { workspace = true, features = ["Win32_System_LibraryLoader"] }
-windows-core = "0.62"
+windows-core = "0.100"
